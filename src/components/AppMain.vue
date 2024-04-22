@@ -13,7 +13,7 @@ export default {
             <h1>MUSIC IN THIS VIDEO</h1>
         </div>
         <div>
-            <button>READ MORE</button>
+            <button class="btn-more">READ MORE</button>
         </div>
     </div>
 </template>
@@ -29,15 +29,6 @@ export default {
     }
     h1{
         font-size: 70px;
-    }
-    button{
-        color: white;
-        background-color: transparent;
-        border: 1px solid #f2870c;
-        padding: 15px 40px;
-    }
-    button:hover{
-        background-color: #f2870c;
     }
 }
 </style>

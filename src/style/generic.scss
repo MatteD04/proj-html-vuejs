@@ -1,16 +1,33 @@
+/*RESET*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/*CONTAINER 1400*/
 .container{
     width: 1400px;
     margin: 0 auto;
 }
+
+/*SFONDO NERO*/
+.background-000{
+    background-color: #000000;
+}
+
+/*CLASSE ACTIVE*/
 .active{
     color: #f2870c
 }
 
-.background-000{
-    background-color: #000000;
+/*STILE BOTTONI*/
+.btn-more{
+    color: white;
+    background-color: transparent;
+    border: 1px solid #f2870c;
+    padding: 15px 40px;
+}
+.btn-more:hover{
+    background-color: #f2870c;
 }
