@@ -2,5 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+.active{
+    color: #f2870c
+}
+
+.background-000{
     background-color: #000000;
 }
