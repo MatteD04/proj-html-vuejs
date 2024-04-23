@@ -11,7 +11,7 @@ export default {
 
 <template>
     <div class="main-content background-000">
-        <img src="../assets/img/assets/cms_parallax.jpg">
+        <img src="../assets/img/assets/image (1).png">
         <div class="main-info">
             <div class="info">
                 <h3 class="active">INSTRUMENTAL ROCK</h3>
@@ -62,7 +62,6 @@ export default {
 
 <style scoped lang="scss">
 .main-content{
-    // padding: 200px 0;
     text-align: center;
     position: relative;
     img{
@@ -78,7 +77,7 @@ export default {
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, -70%);
     }
     .main-card{
         position: absolute;
