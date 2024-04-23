@@ -3,11 +3,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
 }
 
 /*CONTAINER 1400*/
 .container{
     width: 1400px;
+    margin: 0 auto;
+}
+/*CONTAINER PER LE CARD*/
+.container-card{
+    width: 800px;
     margin: 0 auto;
 }
 

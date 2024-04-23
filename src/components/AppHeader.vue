@@ -14,12 +14,12 @@ export default {
                 <ul>
                     <li class="active">HOME</li>
                     <li><a href="#">BLOG</a></li>
-                    <li><a href="#">EVENTS</a></li>
+                    <li><a href="#">EVENTS<i class="fa-solid fa-angle-down arrow-click"></i></a></li>
                     <li><a href="#">GALLERY</a></li>
                     <li><a href="#">ABOUT US</a></li>
                     <li><a href="#">CONTACT US</a></li>
-                    <li><a href="#">SHOP</a></li>
-                    <li><a href="#">🔍</a></li>
+                    <li><a href="#">SHOP<i class="fa-solid fa-angle-down arrow-click"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
                     </ul>
             </div>
         </div>
@@ -41,9 +41,12 @@ export default {
         list-style: none;
         a{
             text-decoration: none;
-            color: #ffffff;
         }
         
+    }
+    .arrow-click{
+        font-size: 12px;
+        margin-left: 5px;
     }
 }
 </style>
