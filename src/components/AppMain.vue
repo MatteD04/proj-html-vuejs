@@ -1,6 +1,11 @@
 <script>
+import MusicVideo from './MusicVideo.vue';
+
 export default {
-    name: 'AppMain'
+    name: 'AppMain',
+    components: {
+        MusicVideo
+    }
 }
 </script>
 
@@ -51,6 +56,8 @@ export default {
             <button class="btn-more space">READ MORE</button>
         </div>
     </div>
+
+    <MusicVideo></MusicVideo>
 </template>
 
 <style scoped lang="scss">
@@ -109,7 +116,7 @@ export default {
 }
 .the-jazz{
     text-align: center;
-    padding-top: 300px;
+    padding: 300px 0 50px 0;
     .space{
         margin-bottom: 30px;
     }
