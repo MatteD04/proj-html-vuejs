@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-    <div class="new-video">
+    <div class="new-video background-000">
         <img class="video-img" src="../assets/img/assets/video.jpg">
     
         <div class="play-video">

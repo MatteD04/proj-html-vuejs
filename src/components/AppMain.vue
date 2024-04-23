@@ -1,10 +1,42 @@
 <script>
 import MusicVideo from './MusicVideo.vue';
+import JazzCard from './JazzCard.vue';
 
 export default {
     name: 'AppMain',
     components: {
-        MusicVideo
+        MusicVideo,
+        JazzCard
+    },
+    data() {
+        return{
+            musicJazz: [
+                {
+                    "image": "../assets/img/assets/gallery1.jpg",
+                    "title": "A ROLL AND BANG THE FLOOR",
+                },
+                {
+                    "image": "../assets/img/assets/gallery2.jpg",
+                    "title": "YOUR MELODY TO OUR MUSIC",
+                },
+                {
+                    "image": "../assets/img/assets/gallery3.jpg",
+                    "title": "TOUCHING HEAVEN ON FREQUENCY",
+                },
+                {
+                    "image": "../assets/img/assets/gallery4.jpg",
+                    "title": "MUSIC MAKES STRONGE BEATS",
+                },
+                {
+                    "image": "../assets/img/assets/gallery5.jpg",
+                    "title": "SOUND IS THE SPARK OF TIME",
+                },
+                {
+                    "image": "../assets/img/assets/gallery6.jpg",
+                    "title": "MAKE YOUR NIGHT GROOVY",
+                }
+            ]
+        };
     }
 }
 </script>
@@ -58,6 +90,15 @@ export default {
     </div>
 
     <MusicVideo></MusicVideo>
+    <div class="background-000">
+        <div class="know-us">
+            <h4 class="active space">WHO WE ARE</h4>
+            <h1 class="space">SENSE THE JAZZ</h1>
+        </div>
+        <div class="card-content">
+            <JazzCard v-for="singleCard in musicJazz" :title="singleCard.title" :image="singleCard.image"></JazzCard>
+        </div>
+    </div>
 </template>
 
 <style scoped lang="scss">
@@ -113,17 +154,31 @@ export default {
         }
     }
 }
+
 .the-jazz{
     text-align: center;
     padding: 300px 0 50px 0;
-    .space{
-        margin-bottom: 30px;
-    }
     h1{
         font-size: 50px;
     }
     p{
         line-height: 1.5;
     }
+}
+
+.know-us{
+    text-align: center;
+    padding-top: 100px;
+    h1{
+        font-size: 50px;
+    }
+}
+.card-content{
+    width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 80px;
+    margin: 0 auto;
 }
 </style>
