@@ -44,6 +44,9 @@ export default {
         i{
             margin: 0 7px;
         }
+        i:hover{
+            color: #f2870c;
+        }
     }
 }
 
