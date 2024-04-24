@@ -1,12 +1,14 @@
 <script>
 import MusicVideo from './MusicVideo.vue';
 import JazzCard from './JazzCard.vue';
+import AlbumOut from './AlbumOut.vue';
 
 export default {
     name: 'AppMain',
     components: {
         MusicVideo,
-        JazzCard
+        JazzCard,
+        AlbumOut
     },
     data() {
         return{
@@ -90,6 +92,7 @@ export default {
     </div>
 
     <MusicVideo></MusicVideo>
+
     <div class="background-000">
         <div class="know-us">
             <h4 class="active space">WHO WE ARE</h4>
@@ -99,6 +102,8 @@ export default {
             <JazzCard v-for="singleCard in musicJazz" :title="singleCard.title" :image="singleCard.image"></JazzCard>
         </div>
     </div>
+
+    <AlbumOut></AlbumOut>
 </template>
 
 <style scoped lang="scss">
