@@ -2,13 +2,15 @@
 import MusicVideo from './MusicVideo.vue';
 import JazzCard from './JazzCard.vue';
 import AlbumOut from './AlbumOut.vue';
+import MusicBlog from './MusicBlog.vue';
 
 export default {
     name: 'AppMain',
     components: {
         MusicVideo,
         JazzCard,
-        AlbumOut
+        AlbumOut,
+        MusicBlog
     },
     data() {
         return{
@@ -104,6 +106,8 @@ export default {
     </div>
 
     <AlbumOut></AlbumOut>
+
+    <MusicBlog></MusicBlog>
 </template>
 
 <style scoped lang="scss">
