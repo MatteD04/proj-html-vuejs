@@ -86,6 +86,7 @@ export default {
 
 .jumbo-img{
     width: 100%;
+    padding-bottom: 100px;
     img{
         width: calc(100% / 8);
         border: 1px solid black;
