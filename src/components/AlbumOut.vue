@@ -9,9 +9,9 @@ export default {
         <img src="../assets/img/assets/cms_parallax.jpg">
 
         <div class="album-info">
-            <h3 class="active info">INSTRUMENTAL ROCK</h3>
-            <h1 class="info">ALBUM OUT NOW</h1>
-            <button class="btn-more info">READ MORE</button>
+            <h3 class="ms-active ms-info">INSTRUMENTAL ROCK</h3>
+            <h1 class="ms-info">ALBUM OUT NOW</h1>
+            <button class="btn-more ms-info">READ MORE</button>
         </div>
     </div>
     <div class="album-awards">
@@ -20,22 +20,22 @@ export default {
             <div>
                 <i class="fa-solid fa-child-reaching"></i>
                 <h2>163</h2>
-                <h3>CONCERTS</h3>
+                <h4>CONCERTS</h4>
             </div>
             <div>
                 <i class="fa-solid fa-rocket"></i>
                 <h2>145</h2>
-                <h3>HAPPY CLIENTS</h3>
+                <h4>HAPPY CLIENTS</h4>
             </div>
             <div>
                 <i class="fa-solid fa-trophy"></i>
                 <h2>72</h2>
-                <h3>MUSIC AWARDS</h3>
+                <h4>MUSIC AWARDS</h4>
             </div>
             <div>
                 <i class="fa-solid fa-music"></i>
                 <h2>182</h2>
-                <h3>TOTAL SONGS</h3>
+                <h4>TOTAL SONGS</h4>
             </div>
         </div>
     </div>
@@ -57,7 +57,7 @@ export default {
         h1{
             font-size: 70px;
         }
-        .info{
+        .ms-info{
             margin: 30px 0;
         }
     }

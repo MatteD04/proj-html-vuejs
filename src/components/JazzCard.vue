@@ -8,10 +8,10 @@ export default {
 <template>
     <div class="music-card">
         <div class="img-card">
-            <img :src="image">
+            <img :src='image'>
         </div>
         <div class="social-card">
-            <h3>{{ title }}</h3>
+            <h4>{{ title }}</h4>
             <p>Stream On:
                 <i class="fa-brands fa-spotify"></i>
                 <i class="fa-brands fa-youtube"></i>

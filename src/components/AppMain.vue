@@ -46,16 +46,16 @@ export default {
 </script>
 
 <template>
-    <div class="main-content background-000">
+    <div class="ms-main-content background-000">
         <img src="../assets/img/assets/image (1).png">
         <div class="main-info">
-            <div class="info">
-                <h3 class="active">INSTRUMENTAL ROCK</h3>
+            <div class="ms-info">
+                <h3 class="ms-active">INSTRUMENTAL ROCK</h3>
             </div>
-            <div class="info">
+            <div class="ms-info">
                 <h1>MUSIC IN THIS VIDEO</h1>
             </div>
-            <div class="info">
+            <div class="ms-info">
                 <button class="btn-more">READ MORE</button>
             </div>
         </div>
@@ -81,15 +81,15 @@ export default {
 
     <div class="who-are background-000">
         <div class="the-jazz container-card">
-            <h4 class="active space">WHO WE ARE</h4>
-            <h1 class="space">SENSE THE JAZZ</h1>
-            <p class="space">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            <h4 class="ms-active ms-space">WHO WE ARE</h4>
+            <h1 class="ms-space">SENSE THE JAZZ</h1>
+            <p class="ms-space">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                Phasellus ut sodales leo. Duis id scelerisque nunc, ut aliquam elit.
                Suspendisse bibendum dui ut lacus dictum porta. Fusce malesuada risus ac mauris tincidunt, quis convallis mi venenatis. 
                Cras pretium feugiat mi sed commodo. Mauris placerat, ex egestas aliquet tincidunt, sem eros aliquam nisi, in suscipit dolor tortor a mi. 
                Nunc interdum nisi a feugiat iaculis.
             </p>
-            <button class="btn-more space">READ MORE</button>
+            <button class="btn-more ms-space">READ MORE</button>
         </div>
     </div>
 
@@ -97,10 +97,10 @@ export default {
 
     <div class="background-000">
         <div class="know-us">
-            <h4 class="active space">WHO WE ARE</h4>
-            <h1 class="space">SENSE THE JAZZ</h1>
+            <h4 class="ms-active ms-space">WHO WE ARE</h4>
+            <h1 class="ms-space">SENSE THE JAZZ</h1>
         </div>
-        <div class="card-content">
+        <div class="ms-card-content">
             <JazzCard v-for="singleCard in musicJazz" :title="singleCard.title" :image="singleCard.image"></JazzCard>
         </div>
     </div>
@@ -111,13 +111,13 @@ export default {
 </template>
 
 <style scoped lang="scss">
-.main-content{
+.ms-main-content{
     text-align: center;
     position: relative;
     img{
         width: 100%;
     }
-    .info{
+    .ms-info{
         margin: 40px 0;
     }
     h1{
@@ -182,7 +182,7 @@ export default {
         font-size: 50px;
     }
 }
-.card-content{
+.ms-card-content{
     width: 1100px;
     display: flex;
     flex-wrap: wrap;

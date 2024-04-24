@@ -7,30 +7,30 @@ export default {
 <template>
     <div class="background-000">
         <div class="music-blog">
-            <h4 class="active space">MUSIC BLOG</h4>
+            <h4 class="ms-active ms-space">MUSIC BLOG</h4>
             <h1>BEST MUSIC BLOG</h1>
         </div>
         <div class="cont-card">
-            <div class="card">
+            <div class="ms-card">
                 <img src="../assets/img/assets/hip_hop_wired_to_dance_make.jpg">
                 <h3>HIP HOP WIRED TO DANCE MAKE</h3>
-                <p class="active"><i class="fa-regular fa-calendar-days"></i> 06 November 2021</p>
+                <p class="ms-active"><i class="fa-regular fa-calendar-days"></i> 06 November 2021</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae faucibus massa. 
                    Fusce placerat ex id lacinia fermentum. 
                 </p>
             </div>
-            <div class="card">
+            <div class="ms-card">
                 <img src="../assets/img/assets/music_business-worldwide.jpg">
                 <h3>MUSIC BUSINESS WORLDWIDE</h3>
-                <p class="active"><i class="fa-regular fa-calendar-days"></i> 27 May 2022</p>
+                <p class="ms-active"><i class="fa-regular fa-calendar-days"></i> 27 May 2022</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae faucibus massa. 
                    Fusce placerat ex id lacinia fermentum. 
                 </p>
             </div>
-            <div class="card">
+            <div class="ms-card">
                 <img src="../assets/img/assets/giveaways_rock.jpg">
                 <h3>GIVEAWAYS ROCK TO ALL</h3>
-                <p class="active"><i class="fa-regular fa-calendar-days"></i> 07 May 2022</p>
+                <p class="ms-active"><i class="fa-regular fa-calendar-days"></i> 07 May 2022</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae faucibus massa. 
                    Fusce placerat ex id lacinia fermentum. 
                 </p>
@@ -66,7 +66,7 @@ export default {
     justify-content: space-between;
     margin: 0 auto;
     padding: 50px 0 130px 0;
-    .card{
+    .ms-card{
         width: calc((100% / 3) - 15px);
         img{
             width: 100%;
